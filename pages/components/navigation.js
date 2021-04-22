@@ -28,16 +28,15 @@ class Navbar extends React.Component {
             activeIndex: 0, //current navigation id
             menu: false
         };
-        //this.toggleMenu = this.toggleMenu.bind(this);
+        this.toggleMenu = this.toggleMenu.bind(this);
     }
     
-    //handleClick = (index) => this.setState({ activeIndex: index });
-    /*
+    handleClick = (index) => this.setState({ activeIndex: index });
+    
     toggleMenu() {
       this.setState({menu: !this.state.menu})
     }
-    */
-
+    
     render() {
       const show = (this.state.menu) ? "show" : "";
       return (
