@@ -1,8 +1,6 @@
 import React from "react";
 import Link from 'next/link'
 
-//<div>Back to <Link href='/' as={ process.env.BACKEND_URL + '/'}><a>Home</a></Link></div>
-
 class Clickable extends React.Component {
     constructor(props) {
       super(props);
@@ -28,23 +26,19 @@ class Navbar extends React.Component {
             activeIndex: 0, //current navigation id
             menu: false
         };
-        this.toggleMenu = this.toggleMenu.bind(this);
+        //this.toggleMenu = this.toggleMenu.bind(this);
     }
-    
-    handleClick = (index) => this.setState({ activeIndex: index });
-    
-    toggleMenu() {
-      this.setState({menu: !this.state.menu})
-    }
-    
+
     render() {
       const show = (this.state.menu) ? "show" : "";
       return (
         <nav className="navbar sticky-top navbar-expand-sm bg-dark navbar-dark">
-          <button className="navbar-toggler" type="button" onClick={this.toggleMenu}>
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+          >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className={"collapse navbar-collapse " + show} id="collapsibleNavbar">
+          <div className={"collapse navbar-collapse "} id="collapsibleNavbar">
             <ul className="navbar-nav">
               {
                 this.state.nav_text.map((value, i) =>

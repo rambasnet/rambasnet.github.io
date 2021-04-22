@@ -25,9 +25,8 @@ class Banner extends React.Component {
       if (this.state.hide_logo)
         document.getElementById('logo').style.display = "none";
       else
-      document.getElementById('logo').style.display = "block";
+        document.getElementById('logo').style.display = "block";
     }
-
   }
 
   componentWillUnmount() {
