@@ -9,7 +9,7 @@
   },
   {
     "name": "CSCI 111- CS1",
-    "times": 9
+    "times": 10
   },
   {
     "name": "CSCI 112- CS2",
@@ -25,7 +25,7 @@
   },
   {
     "name": "CSCI 310- Adv. Python",
-    "times": 8
+    "times": 9
   },
   {
     "name": "CSCI 310- Adv. JavaScript",
@@ -41,7 +41,7 @@
   },
   {
     "name": "CSCI 465- Net/App Security",
-    "times": 6
+    "times": 7
   },
   {
     "name": "CSCI 396- Machine Learning",
