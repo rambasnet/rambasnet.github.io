@@ -22,9 +22,8 @@ class Home extends React.Component {
             </div>
             <p>I am a faculty of Computer Science at <a href="http://www.coloradomesa.edu" target="_blank" rel="noreferrer">Colorado Mesa University (CMU)</a>.</p>
             <p>I'm a Certified Ethical Hacker (CEH) and have been practicing ethical hacking since I was a graduate student at New Mexico Tech (NMT).</p>
-            <p>I discovered and responsibly disclosed several critical security flaws in a web application used by major health insurance providers in Colorado and
-            "hopefully" helped protecting
-            electronic personal health information of tens of thousands of Coloradoans.
+            <p>I discovered and responsibly disclosed several critical security flaws on a web application used by major health insurance providers in Colorado and
+            "hopefully" helped protecting electronic personal health information of tens of thousands of Coloradoans.
             </p>
             <hr className="d-sm-none" />
           </div>
