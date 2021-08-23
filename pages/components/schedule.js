@@ -28,7 +28,7 @@ class Schedule extends React.Component {
         includes: "3:30",
         row_span: 2},
         {name: "Net/App Sec",
-        loc: "CH 215",
+        loc: "CH 315",
         start_time: "11:00",
         days: ["Mon", "Wed", "Fri"],
         time: "11-11:50",
