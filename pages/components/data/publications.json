@@ -1,4 +1,10 @@
-[   
+[ 
+  {
+    "title": "Instructional interventions for computation thinking: Examining the link between computation thinking and academic performance",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2666557321000276?via%3Dihub",
+    "author": "D. J. Lemay, R. B. Basnet, T. Doleck, P. Bazelais, A. Saxena",
+    "pub_info": "Computer and Education Open, Elsevier, Vol. 2, Dec. 2021, DOI: 10.1016/j.caeo.2021.100056"
+  }, 
   {
     "title": "Feature Engineering and Maching Learning Model Comparison for Malicious Activity Detection in the DNS-Over-HTTPS Protocol",
     "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9540699",
