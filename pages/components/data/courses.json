@@ -29,7 +29,7 @@
   },
   {
     "name": "CSCI 310- Adv. JavaScript",
-    "times": 2
+    "times": 3
   },
   {
     "name": "CSCI 370- Computer Security",
@@ -37,7 +37,7 @@
   },
   {
     "name": "CSCI 420- Cybersecurity",
-    "times": 7
+    "times": 8
   },
   {
     "name": "CSCI 465- Net/App Security",
@@ -45,6 +45,6 @@
   },
   {
     "name": "CSCI 396- Machine Learning",
-    "times": 1
+    "times": 2
   }
 ]
