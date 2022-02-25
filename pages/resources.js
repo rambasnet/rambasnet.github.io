@@ -31,7 +31,7 @@ class Resources extends React.Component {
             </div>
             <div className="col-sm-8">
               <Cybergames />
-              <h2><a name="cyberSecurityResources">Cyber Security Resources</a></h2>
+              <h2><a name="cyberSecurityResources">Cybersecurity Resources</a></h2>
               <ul>
                 <li><a href="https://www.cssia.org/interactives/" rel="noreferrer" target="_blank">Cybersecurity Interactives</a></li>
                 <li><a href="http://ictf.cs.ucsb.edu/" target="_blank" rel="noreferrer">International Collegiate Hacking Competition</a></li>
