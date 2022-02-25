@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from './layout';
+import Cybergames from './components/cybergames'
 
 class Resources extends React.Component {
   constructor(props) {
@@ -20,7 +21,8 @@ class Resources extends React.Component {
               <br />
               <h5>Useful Links</h5>
               <ul className="list-group">
-                <li className="list-group-item"><a href="/resources#cyberSecurity">Cyber Security</a></li>
+                <li className="list-group-tiem"><a href="/resources#cybergames">Cybersecurity Games</a></li>
+                <li className="list-group-item"><a href="/resources#cyberSecurityResurces">Cyber Security</a></li>
                 <li className="list-group-item"><a href="/resources#funding">Funding Opportunities</a></li>
                 <li className="list-group-item"><a href="/resources#icpc">ICPC Resources</a></li>
               </ul>
@@ -28,13 +30,13 @@ class Resources extends React.Component {
               <hr className="d-sm-none" />
             </div>
             <div className="col-sm-8">
-              <h2><a name="cyberSecurity">Cyber Security</a></h2>
+              <Cybergames />
+              <h2><a name="cyberSecurityResources">Cyber Security Resources</a></h2>
               <ul>
                 <li><a href="https://www.cssia.org/interactives/" rel="noreferrer" target="_blank">Cybersecurity Interactives</a></li>
                 <li><a href="http://ictf.cs.ucsb.edu/" target="_blank" rel="noreferrer">International Collegiate Hacking Competition</a></li>
                 <li><a href="http://ructf.org/e/2013/" target="_blank" rel="noreferrer"> Online International challenge of information security</a></li>
                 <li><a href="http://docs.kali.org/pdf/kali-book-en.pdf" target="_blank" rel="noreferrer"> Kali Linux Book</a></li>
-                <li><a href="http://www.fastandeasyhacking.com/" target="_blank" rel="noreferrer">Armitage - Fast and Easy Hacking</a></li>
                 <li><a href="http://sectools.org" target="_blank" rel="noreferrer">Top 125 Security Tools </a></li>
                 <li><a href="https://zmap.io" target="_blank" rel="noreferrer">Zmap - The Internet Scanner </a></li>
                 <li><a href="https://www.owasp.org/index.php/OWASP_Hackademic_Challenges_Project" target="_blank" rel="noreferrer">Hackademic</a></li>
