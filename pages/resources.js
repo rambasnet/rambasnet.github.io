@@ -21,7 +21,7 @@ class Resources extends React.Component {
               <br />
               <h5>Useful Links</h5>
               <ul className="list-group">
-                <li className="list-group-tiem"><a href="/resources#cybergames">Cybersecurity Games</a></li>
+                <li className="list-group-item"><a href="/resources#cybergames">Cybersecurity Games</a></li>
                 <li className="list-group-item"><a href="/resources#cyberSecurityResurces">Cyber Security</a></li>
                 <li className="list-group-item"><a href="/resources#funding">Funding Opportunities</a></li>
                 <li className="list-group-item"><a href="/resources#icpc">ICPC Resources</a></li>
