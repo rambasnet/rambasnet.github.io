@@ -16,7 +16,7 @@ class Resources extends React.Component {
             <div className="col-sm-4">
               <h2>Resources</h2>
               <div className="profileImg">
-                <img src={ "/assets/resources.jpg"} style={{ "width": "100%" }} alt="Resources" />
+                <img src={"/assets/resources.jpg"} style={{ "width": "100%" }} alt="Resources" />
               </div>
               <br />
               <h5>Useful Links</h5>
@@ -34,18 +34,13 @@ class Resources extends React.Component {
               <h2><a name="cyberSecurityResources">Cybersecurity Resources</a></h2>
               <ul>
                 <li><a href="https://www.cssia.org/interactives/" rel="noreferrer" target="_blank">Cybersecurity Interactives</a></li>
-                <li><a href="http://ictf.cs.ucsb.edu/" target="_blank" rel="noreferrer">International Collegiate Hacking Competition</a></li>
-                <li><a href="http://ructf.org/e/2013/" target="_blank" rel="noreferrer"> Online International challenge of information security</a></li>
                 <li><a href="http://docs.kali.org/pdf/kali-book-en.pdf" target="_blank" rel="noreferrer"> Kali Linux Book</a></li>
                 <li><a href="http://sectools.org" target="_blank" rel="noreferrer">Top 125 Security Tools </a></li>
                 <li><a href="https://zmap.io" target="_blank" rel="noreferrer">Zmap - The Internet Scanner </a></li>
                 <li><a href="https://www.owasp.org/index.php/OWASP_Hackademic_Challenges_Project" target="_blank" rel="noreferrer">Hackademic</a></li>
-                <li><a href="https://www.hacking-lab.com/" target="_blank" rel="noreferrer">Hacking-lab</a></li>
-                <li><a href="https://code.google.com/p/owasp-top-10/" target="_blank" rel="noreferrer">OWASP Top 10 Hands-on training materials</a></li>
-                <li><a href="http://sourceforge.net/projects/mutillidae/" target="_blank" rel="noreferrer">NOWASP (Mutillidae) OWASP Mutillidae II Web Pen-Test Practice Application</a></li>
-                <li><a href="http://sourceforge.net/projects/owaspbwa/" target="_blank" rel="noreferrer">OWASP Broken Web Applications Project</a></li>
+                <li><a href="https://www.hacking-lab.com/" target="_blank" rel="noreferrer">Hacking Lab</a></li>
                 <li><a href="https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project" target="_blank" rel="noreferrer">OWASP WebGoat Project</a></li>
-                <li><a href="http://dirk-loss.de/python-tools.htm" target="_blank" rel="noreferrer">Python Libraries for Penetration Testers</a></li>
+                <li><a href="https://github.com/dloss/python-pentest-tools" target="_blank" rel="noreferrer">Python Libraries for Penetration Testers</a></li>
                 <li><a href="https://docs.google.com/document/d/12Rdsj2PkVXErq_-qLUSJAsGeF9D-U2bI8XXWswPGkn8/edit" target="_blank" rel="noreferrer">Sniffing Traffic with SSL Strip and Wireshark</a></li>
                 <li><a href="http://www.cs.virginia.edu/~evans/cs216/guides/x86.html" target="_blank" rel="noreferrer">x86 Assembly Guide</a></li>
                 <li><a href="http://www.thegeekstuff.com/2011/01/iptables-fundamentals/" target="_blank" rel="noreferrer">IPTables, Chains, Rules Fundamentals</a></li>
@@ -54,7 +49,6 @@ class Resources extends React.Component {
                 <li><a href="http://www.andrewsorensen.net/resources/c-assembly-gdb-reverse-engineering" target="_blank" rel="noreferrer">Reverse Engineering Resources</a></li>
                 <li><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/" target="_blank" rel="noreferrer">Linux Assembly Tutorial</a></li>
                 <li><a href="http://www.unknownroad.com/rtfm/gdbtut/gdbtoc.html" target="_blank" rel="noreferrer">GDB Debugger Tutorial</a></li>
-                <li><a href="https://docs.google.com/document/d/1ubPXrjWM_XvD05W12yKhcq5xgpoZaI1KlgpMq1e7BOE/edit?usp=sharing" target="_blank" rel="noreferrer">Capture The Flag (CTF) Resources</a></li>
                 <li><a href="http://repo.hackerzvoice.net/depot_madchat/windoz/vulns/win32-shellcode.pdf" target="_blank" rel="noreferrer">Understanding Windows Shellcode</a></li>
                 <li><a href="http://insecure.org/stf/smashstack.html" target="_blank" rel="noreferrer">Smash the Stack</a></li>
               </ul>

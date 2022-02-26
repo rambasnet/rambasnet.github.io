@@ -21,7 +21,7 @@ class Banner extends React.Component {
   resize() {
     let currentHideLogo = (window.innerWidth <= 760);
     if (currentHideLogo !== this.state.hide_logo) {
-      this.setState({hide_logo: window.innerWidth <= 760});
+      this.setState({ hide_logo: window.innerWidth <= 760 });
       if (this.state.hide_logo)
         document.getElementById('logo').style.display = "none";
       else
@@ -39,12 +39,12 @@ class Banner extends React.Component {
       top: "5px",
       left: "10px",
       height: "75px",
-    };  
+    };
 
     return (
       <div>
         <a href={this.state.univer_url} target="_blank" rel="noreferrer">
-          <img id="logo" src={this.state.univer_logo} style={imgStyle} alt="University Logo"/>
+          <img id="logo" src={this.state.univer_logo} style={imgStyle} alt="University Logo" />
         </a>
         <h1>{this.state.name}</h1>
         <p>{this.state.title}</p>

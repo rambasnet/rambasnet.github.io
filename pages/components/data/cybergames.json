@@ -10,5 +10,13 @@
   {
     "url": "https://www.ncaecybergames.org/",
     "description": "NCAE Cyber Games"
+  },
+  {
+    "url": "https://tryhackme.com/",
+    "description": "A fun way tolearn cyber security"
+  },
+  {
+    "url": "https://docs.google.com/document/d/1ubPXrjWM_XvD05W12yKhcq5xgpoZaI1KlgpMq1e7BOE/edit?usp=sharing",
+    "description": "Capture The Flag (CTF) Resources"
   }
 ]

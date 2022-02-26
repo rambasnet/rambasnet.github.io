@@ -20,8 +20,8 @@ class Background extends React.Component {
           {
             this.state.map((b) => (
               <tr>
-                <td>{ b.date} </td>
-                <td> {b.position }</td>
+                <td>{b.date} </td>
+                <td> {b.position}</td>
               </tr>
             ))
           }
