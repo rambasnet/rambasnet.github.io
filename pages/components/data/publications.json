@@ -1,5 +1,11 @@
 [ 
   {
+    "title": "Evaluation of Synthetic Data Generation Techniques in the Domain of Anonymous Traffic Classification",
+    "url": "https://ieeexplore.ieee.org/document/9980373",
+    "author": "Drake Cullen, James Halladay, Nathan Briner, Ram Basnet, Jeremy Bergen, and Tenzin Doleck",
+    "pub_info": "IEEE Access, vol. 10, pp. 129612-129625, 2022, doi: 10.1109/ACCESS.2022.3228507"
+  },
+  {
     "title": "Dropout prediction in Moocs using deep learning and machine learning",
     "url": "/pdfs/DropoutPrediction2022.pdf",
     "author": "Ram Basnet, Clayton Johnson and Tenzin Doleck",
