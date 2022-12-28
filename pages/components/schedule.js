@@ -22,7 +22,7 @@ class Schedule extends React.Component {
       ],
       classes: [
         {
-          name: "Py Machine Learning",
+          name: "Python Machine Learning",
           loc: "CH 215",
           start_time: "10:00",
           days: ["Mon", "Wed", "Fri"],
