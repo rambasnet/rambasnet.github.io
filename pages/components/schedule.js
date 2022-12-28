@@ -31,7 +31,7 @@ class Schedule extends React.Component {
           row_span: 2
         },
         {
-          name: "OOP & Deign Patterns",
+          name: "OOP & Design Patterns",
           loc: "CH 310",
           start_time: "12:30",
           days: ["Tues", "Thrs"],
