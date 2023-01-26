@@ -7,7 +7,7 @@ class Research extends React.Component {
     super(props);
     this.state = {
       'interests': ['Phishing attack detection', 'Data science and applications',
-        'Network and web application security', 'Computer Science pedagogy']
+        'Network and web application security', 'Computer Science education']
     };
   }
 
