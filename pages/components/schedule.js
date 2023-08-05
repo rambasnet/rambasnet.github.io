@@ -5,7 +5,7 @@ class Schedule extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      semester: "Spring 2023 Schedule",
+      semester: "Fall 2023 Schedule",
       office: "CH 329",
       days: ["Mon", "Tues", "Wed", "Thrs", "Fri"],
       times: ["8:00", "8:30", "9:00", "9:30", "10:00", "10:30", "11:00",
@@ -13,41 +13,66 @@ class Schedule extends React.Component {
         "3:00"],
       office_hours: [
         {
-          days: ["Mon", "Tues", "Wed", "Thrs", "Fri"],
-          start_time: "9:00",
-          time: "9-9:50",
-          includes: "9:30",
+          days: ["Mon", "Wed", "Fri"],
+          start_time: "10:00",
+          time: "10-10:50",
+          includes: "10:30",
+          row_span: 2
+        },
+        {
+          days: ["Tues", "Thrs"],
+          start_time: "11:00",
+          time: "11-11:50",
+          includes: "11:30",
           row_span: 2
         }
       ],
       classes: [
         {
-          name: "Python Machine Learning",
+          name: "Net/App Security",
           loc: "CH 215",
-          start_time: "10:00",
+          start_time: "11:00",
           days: ["Mon", "Wed", "Fri"],
-          time: "10:00-10:50",
-          includes: "10:30",
+          time: "11:00-11:50",
+          includes: "11:30",
           row_span: 2
         },
         {
-          name: "OOP & Design Patterns",
-          loc: "CH 310",
-          start_time: "12:30",
-          days: ["Tues", "Thrs"],
-          time: "12:30-1:45",
-          includes: "1:30",
-          row_span: 3
-        },
-        {
-          name: "Software Security",
-          loc: "CH 215",
+          name: "Beg. Python",
+          loc: "CH 276",
           start_time: "1:00",
           days: ["Mon", "Wed", "Fri"],
           time: "1:00-1:50",
           includes: "1:30",
           row_span: 2
-        }
+        },
+        {
+          name: "Beg. Python: Lab",
+          loc: "CH 276",
+          start_time: "1:00",
+          days: ["Tues", "Thrs"],
+          time: "1:00-1:50",
+          includes: "1:30",
+          row_span: 2
+        },
+        {
+          name: "Intro DB",
+          loc: "CH 315",
+          start_time: "9:30",
+          days: ["Tues", "Thrs"],
+          time: "9:30-10:45",
+          includes: "10:30",
+          row_span: 2
+        },
+        {
+          name: "Adv. Python",
+          loc: "CH 310",
+          start_time: "2:00",
+          days: ["Tues", "Thrs"],
+          time: "2:00-2:50",
+          includes: "2:30",
+          row_span: 2
+        },
       ]
     };
   }

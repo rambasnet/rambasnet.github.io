@@ -5,7 +5,7 @@
   },
   {
     "name": "CSCI 110- Beg. Python",
-    "times": 8
+    "times": 9
   },
   {
     "name": "CSCI 111- CS 1",
@@ -25,7 +25,7 @@
   },
   {
     "name": "CSCI 310- Adv. Python",
-    "times": 10
+    "times": 11
   },
   {
     "name": "CSCI 310- Adv. JavaScript",
@@ -41,7 +41,7 @@
   },
   {
     "name": "CSCI 465- Net/App Security",
-    "times": 8
+    "times": 9
   },
   {
     "name": "CSCI 425- Python Machine Learning",
@@ -49,7 +49,7 @@
   },
   {
     "name": "CSCI 260- Intro To Database",
-    "times": 1
+    "times": 2
   },
   {
     "name": "CSCI 375- OOP & Design Patterns",

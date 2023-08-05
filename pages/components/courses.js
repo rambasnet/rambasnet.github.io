@@ -25,6 +25,7 @@ class Courses extends React.Component {
         <li className="list-group-item">Web Design and Secure Web App Development</li>
       </ul>
       <br />
+      <h5><a href="https://github.com/rambasnet" target="_blank" rel="noreferrer">GitHub Repositories</a></h5>
       <h5>Courses Taught at CMU</h5>
         {
           courses.map( (course) => (

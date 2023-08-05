@@ -35,10 +35,7 @@ class Home extends React.Component {
             <Background />
             <br />
             <h2>LEISURE</h2>
-            <h5>Grand Mesa, CO, Spring 2017</h5>
-            <div><img src={"/assets/honda.jpg"} width="100%" alt="Honda Shadoow" /></div>
-            <p>I enjoy riding my Honda Phantom when I can.</p>
-            <p>I follow the mantra "work hard, play hard!"</p>
+            <p>I follow the mantra: "work hard, play hard!"</p>
             <br />
             <h5>Everest Base Camp, Nepal, Spring 2018</h5>
             <div><img src={"/assets/EBC.JPG"} width="100%" alt="Everest Base Camp" /></div>
