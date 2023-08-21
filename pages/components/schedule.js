@@ -30,7 +30,7 @@ class Schedule extends React.Component {
       classes: [
         {
           name: "Net/App Security",
-          loc: "CH 215",
+          loc: "CH 210",
           start_time: "11:00",
           days: ["Mon", "Wed", "Fri"],
           time: "11:00-11:50",
