@@ -1,5 +1,11 @@
 [
     {
+        "title": "BIE: Binary Image Encoding for the Classification of Tabular Data",
+        "url": "https://jds-online.org/journal/JDS/article/1360/info",
+        "author": "James Halladay, Drake Cullen, Nathan Briner, Darrin Miller, Riley Primeau, Abraham Avilla, Warin Watson, Ram Basnet, and Tenzin Doleck",
+        "pub_info": "Journal of Data Science, pp. 1-21, 2024, doi: 10.6339/24-JDS1122"
+    },
+    {
         "title": "Tabular-to-Image Transformations for the Classification of Anonymous Network Traffic Using Deep Residual Networks",
         "url": "https://ieeexplore.ieee.org/document/10278393",
         "author": "Nathan Briner, Drake Cullen, James Halladay, Darrin Miller, Riley Primeau, Abraham Avilla, Ram Basnet, and Tenzin Doleck",
