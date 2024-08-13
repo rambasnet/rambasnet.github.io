@@ -15,3 +15,6 @@ $ conda activate nodejs
 $ npm install
 $ npm run deploy
 ```
+
+## Docker
+Docker build/start/stop/deploy scripts are in the main directory.
