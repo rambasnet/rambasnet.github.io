@@ -8,7 +8,7 @@ class Banner extends React.Component {
       name: "Dr. Ram Basnet",
       title: "Professor of Computer Science and Cybersecurity",
       univer_url: 'http://www.coloradomesa.edu',
-      univer_logo: '/assets/cmu-logo.png',
+      univer_logo: '/assets/cmu-logo.svg',
       hide_logo: false
     };
   }

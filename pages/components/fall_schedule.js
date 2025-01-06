@@ -5,7 +5,7 @@ class Schedule extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            semester: "Spring 2024 Schedule",
+            semester: "Fall 2024 Schedule",
             office: "CH 329",
             days: ["Mon", "Tues", "Wed", "Thrs", "Fri"],
             times: ["8:00", "8:30", "9:00", "9:30", "10:00", "10:30", "11:00",
@@ -29,17 +29,26 @@ class Schedule extends React.Component {
             ],
             classes: [
                 {
-                    name: "Python Machine Learning",
-                    loc: "CH 215",
-                    start_time: "10:00",
+                    name: "Net/App Security",
+                    loc: "CH 210",
+                    start_time: "11:00",
                     days: ["Mon", "Wed", "Fri"],
-                    time: "10:00-10:50",
-                    includes: "10:30",
+                    time: "11:00-11:50",
+                    includes: "11:30",
                     row_span: 2
                 },
                 {
-                    name: "Software Security",
+                    name: "OOP & Design Patterns",
                     loc: "CH 215",
+                    start_time: "11:00",
+                    days: ["Tues", "Thrs"],
+                    time: "11:00-12:15",
+                    includes: "12:00",
+                    row_span: 3
+                },
+                {
+                    name: "Beg. Python",
+                    loc: "CH 276",
                     start_time: "1:00",
                     days: ["Mon", "Wed", "Fri"],
                     time: "1:00-1:50",
@@ -47,14 +56,14 @@ class Schedule extends React.Component {
                     row_span: 2
                 },
                 {
-                    name: "OOP & Design Patterns",
-                    loc: "CH 310",
-                    start_time: "12:30",
+                    name: "Beg. Python: Lab",
+                    loc: "CH 276",
+                    start_time: "1:00",
                     days: ["Tues", "Thrs"],
-                    time: "12:30-1:45",
+                    time: "1:00-1:50",
                     includes: "1:30",
                     row_span: 2
-                }
+                },
             ]
         };
     }
@@ -90,7 +99,7 @@ class Schedule extends React.Component {
         for (const day of this.state.days) {
             RowSpanned[day] = [];
         }
-        //console.log(RowSpanned);
+        console.log(RowSpanned);
         for (let i = 0; i < this.state.times.length; i++) {
             let start_time = this.state.times[i];
             html += '<tr><th style="text-align:center">' + start_time + '</th>'
