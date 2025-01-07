@@ -4,14 +4,12 @@ import Navigation from './components/navigation';
 import Footer from './components/footer';
 
 function Layout(props) {
-  let iconUrl = "/assets/favicon_32.ico"
   return (
     <html>
       <head>
         <title>{props.title}</title>
         <meta charset="utf-8" />
-        
-        <link rel="icon" href={iconUrl} type="image/gif" sizes="32x32" />
+        <link rel="icon" href="/assets/favicon_32.ico" type="image/gif" sizes="32x32" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
         <link rel="stylesheet" href="assets/style.css" />
