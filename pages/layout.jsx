@@ -9,20 +9,10 @@ function Layout(props) {
       <head>
         <title>{props.title}</title>
         <meta charset="utf-8" />
-        <link rel="icon" href="/assets/favicon_32.ico" type="image/gif" sizes="32x32" />
+        <link rel="icon" href="/assets/favicon_32.ico" type="image/x-icon" sizes="32x32" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
         <link rel="stylesheet" href="assets/style.css" />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-          // This is making use of ES6 template strings, which allow for
-          // multiline strings. We specified "{jsx: {harmony: true}}" when
-          // creating the engine in app.js to get this feature.
-          console.log("hello world");
-        `,
-          }}
-        />
       </head>
       <div id="banner" className="jumbotron text-center" style={{"height":"200px"}}>
         <Banner />
