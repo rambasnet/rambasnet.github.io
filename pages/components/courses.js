@@ -19,10 +19,10 @@ class Courses extends React.Component {
                 <br />
                 <h5>Teaching Interests</h5>
                 <ul className="list-group">
-                    <li className="list-group-item">Cybersecurity</li>
-                    <li className="list-group-item">Python, C++, JavaScript, Databases</li>
-                    <li className="list-group-item">Data Science and ML Applications</li>
-                    <li className="list-group-item">Web Design and Secure Web App Development</li>
+                    <li key="1" className="list-group-item">Cybersecurity</li>
+                    <li key="2" className="list-group-item">Python, C++, JavaScript, Databases</li>
+                    <li key="3" className="list-group-item">Data Science and ML Applications</li>
+                    <li key="4" className="list-group-item">Web Design and Secure Web App Development</li>
                 </ul>
                 <br />
                 <h5><a href="https://github.com/rambasnet" target="_blank" rel="noreferrer">GitHub Repositories</a></h5>

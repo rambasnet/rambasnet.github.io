@@ -16,3 +16,14 @@ $ npm install
 $ npm run dev
 $ npm run deploy
 ```
+
+## Using Docker
+- run the bash script `./docker_run.sh` to build and run the docker image
+```bash
+$ bash docker_run.sh
+```
+- once on the Docker container, run the following commands
+```bash
+$ npm run dev
+$ npm run deploy
+```

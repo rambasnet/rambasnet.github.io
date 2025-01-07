@@ -149,6 +149,8 @@ winenv $container run -it --rm \
     -v "$GIT_CONFIG:$USER_HOME/.gitconfig" \
     -v "$ZSH_HISTORY:$USER_HOME/.zsh_history" \
     -v "$KATTISRC:$USER_HOME/.kattisrc" \
+    -p 3000:3000 \
     -h debian \
+    --memory=2g --cpus=2 \
     "$CONTAINER_TAG" \
     "${args[@]}"

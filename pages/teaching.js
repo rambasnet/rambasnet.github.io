@@ -14,11 +14,11 @@ class Teaching extends React.Component {
   render() {
     return (
       <Layout {...this.props} currentPage="teaching">
-        <div classNameName="row" style={{ margin: "50px" }}>
+        <div className="row" style={{ margin: "50px" }}>
           <div className="row">
             <Courses />
             <Schedule />
-            <hr class="d-sm-none" />
+            <hr className="d-sm-none" />
           </div>
         </div>
       </Layout>
