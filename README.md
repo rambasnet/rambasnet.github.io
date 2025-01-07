@@ -13,5 +13,6 @@ $ conda create -n nodejs python=3.x
 $ conda install -c conda-forge nodejs
 $ conda activate nodejs
 $ npm install
+$ npm run dev
 $ npm run deploy
 ```
