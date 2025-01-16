@@ -5,7 +5,7 @@ class Schedule extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            semester: "Spring 2024 Schedule",
+            semester: "Spring 2025 Schedule",
             office: "CH 329",
             days: ["Mon", "Tues", "Wed", "Thrs", "Fri"],
             times: ["8:00", "8:30", "9:00", "9:30", "10:00", "10:30", "11:00",
@@ -49,11 +49,11 @@ class Schedule extends React.Component {
                 {
                     name: "OOP & Design Patterns",
                     loc: "CH 310",
-                    start_time: "12:30",
+                    start_time: "11:00",
                     days: ["Tues", "Thrs"],
-                    time: "12:30-1:45",
-                    includes: "1:30",
-                    row_span: 2
+                    time: "11:00-12:15",
+                    includes: "12:00",
+                    row_span: 3
                 }
             ]
         };
