@@ -1,4 +1,9 @@
-[
+[   {   
+        "title": "Modeling students’ intentions to learn data science: Using an extended theory of planned behavior",
+        "url": "https://www.kmel-journal.org/ojs/index.php/online-publication/article/view/604",
+        "author": "R. B. Basnet, D. J. Lemay, & P. Bazelais", 
+        "pub_info": "Knowledge Management & E-Learning, 16(4), pp. 638–652, 2024, https://doi.org/10.34105/j.kmel.2024.16.029" 
+    },
     {
         "title": "Forecasting Bitcoin Returns via Machine Learning Algorithms with Technical and Economic Indicators",
         "url": "Best Paper Award",
@@ -153,7 +158,7 @@
         "title": "BioWorldParser - A Suite of Parsers for Leveraging Educational Data Mining Techniques",
         "url": "/pdfs/BioWorldParser.pdf",
         "author": "Doleck, T., Basnet, R. B., Poitras, E., and Lajoie, S.",
-        "pub_info": "In Proc. of IEEE International Conference on MOOC, Innovation and Technology in Education (MITE)</i>, India, IEEE, 2014"
+        "pub_info": "In Proc. of IEEE International Conference on MOOC, Innovation and Technology in Education (MITE), India, IEEE, 2014"
     },
     {
         "title": "Augmenting the Novice-Expert Overlay Model in an Intelligent Tutoring System - Using Confidence-Weighted Linear Classifiers",
