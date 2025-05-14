@@ -1,29 +1,21 @@
-# Ram Banset
+# Ram Banset Homepage
 
-## Homepage
+## Homepage hosted at rambasnet.github.io
+
+- [https://rambasnet.github.io](https://rambasnet.github.io)
 
 - created using Nextjs
 
-## Deploy to GitHub
-- install nodejs (v16^) and nextjs
-- [https://nextjs.org/learn/basics/deploying-nextjs-app/github](https://nextjs.org/learn/basics/deploying-nextjs-app/github)
+## Deploy Using Docker
 
 ```bash
-$ conda create -n nodejs python=3.x
-$ conda install -c conda-forge nodejs
-$ conda activate nodejs
-$ npm install
-$ npm run dev
-$ npm run deploy
+docker-compose up -d --build
+docker exec -it nodejs zsh
 ```
 
-## Using Docker
-- run the bash script `./docker_run.sh` to build and run the docker image
-```bash
-$ bash docker_run.sh
-```
 - once on the Docker container, run the following commands
+
 ```bash
-$ npm run dev
-$ npm run deploy
+npm run dev
+npm run deploy
 ```
