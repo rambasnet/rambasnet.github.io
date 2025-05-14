@@ -9,7 +9,9 @@
 ## Deploy Using Docker
 
 ```bash
-docker-compose up -d --build
+docker compose build
+docker compose up -d
+docker ps
 docker exec -it nodejs zsh
 ```
 
