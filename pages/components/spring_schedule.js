@@ -7,7 +7,7 @@ export default class Schedule extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            semester: "Fall 2025 Schedule",
+            semester: "Spring 2025 Schedule",
             time: ["9:00 am","2:00 pm"], // time range for schedule
             day: ["Mon", "Fri"], // day range for schedule
             
@@ -17,37 +17,31 @@ export default class Schedule extends React.Component {
                     name: "Office Hour",
                     loc: "CH 329",
                     days: ["Mon","Wed", "Fri"],
-                    time: ["10:00 am", "10:50 am"],
+                    time: ["9:00 am","9:50 am"],
                 },
                 {
                     name: "Office Hour",
                     loc: "CH 329",
                     days: ["Tue","Thu"],
-                    time: ["1:00 pm", "1:50 pm"],
+                    time: ["10:00 am","10:50 am"],
                 },
                 {
-                    name: "CS0 - Beg. Python",
-                    loc: "CH 276",
+                    name: "Python Machine Learning",
+                    loc: "CH 210",
                     days: ["Mon", "Wed", "Fri"],
-                    time: ["9:00 am", "9:50 am"],
-                },
-                {
-                    name: "CS0 - Lab",
-                    loc: "CH 276",
-                    days: ["Tue", "Thu"],
-                    time: ["9:00 am", "9:50 am"],
+                    time: ["10:00 am", "10:50 am"],
                 },
                 {
                     name: "OOP & Design Patterns",
-                    loc: "CH 215",
+                    loc: "CH 310",
                     days: ["Tue", "Thu"],
-                    time: ["11:00 am", "12:15 pm"],
+                    time: ["11:00 am","12:15 pm"],
                 },
                 {
-                    name: "Net/App Security",
-                    loc: "CH 210",
+                    name: "Software Security",
+                    loc: "CH 215",
                     days: ["Mon", "Wed", "Fri"],
-                    time: ["11:00 am", "11:50 am"],
+                    time: ["1:00 pm", "1:50 pm"],
                 },
             ]
         };

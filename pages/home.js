@@ -35,7 +35,7 @@ class Home extends React.Component {
             <br />
             <h5>Everest Base Camp, Nepal, Spring 2018</h5>
             <div><img src={"/assets/EBC.JPG"} width="100%" alt="Everest Base Camp" /></div>
-            <p>I love hiking mountains of Colorado.</p>
+            <p>I love hiking mountains. I've hiked 100+ mountains (including 14 14ers) in Colorado, Utah and Arizona. </p>
             <p>I did an epic trek to the Everest Base Camp, Kala Patthar, Chhola and Renjo Passes of Khumbu region of Nepal in 2018.</p>
             <p>I play soccer in recreational league.</p>
           </div>

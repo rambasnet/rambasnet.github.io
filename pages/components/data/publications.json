@@ -1,8 +1,21 @@
-[   {   
-        "title": "Modeling students’ intentions to learn data science: Using an extended theory of planned behavior",
+[
+    {
+        "title": "Forecasting Bitcoin Returns via Machine Learning Algorithms with Technical and Economic Indicators",
+        "url": "https://doi.org/10.6186/IJIMS.202409_35(3).0001",
+        "author": "Yen-Sheng Lee and Ram Basnet",
+        "pub_info": "International Journal of Information and Management Sciences, Volume 35, Issue 3, Pp. 191-202"
+    },
+    {
+        "title": "Leveraging Jupyter Notebook and GitHub Codespaces For Interactive Computer Science Education",
+        "url": "https://library.iated.org/view/BASNET2025LEV",
+        "author": "R. Basnet",
+        "pub_info": "In Proc. 17th International Conference on Education and New Learning Technologies, pp. 401-408, July 2025, Palma de Mallorca, Spain, https://10.21125/edulearn.2025.0177"
+    },
+    {
+        "title": "Modeling students' intentions to learn data science: Using an extended theory of planned behavior",
         "url": "https://www.kmel-journal.org/ojs/index.php/online-publication/article/view/604",
-        "author": "R. B. Basnet, D. J. Lemay, & P. Bazelais", 
-        "pub_info": "Knowledge Management & E-Learning, 16(4), pp. 638–652, 2024, https://doi.org/10.34105/j.kmel.2024.16.029" 
+        "author": "R. B. Basnet, D. J. Lemay, & P. Bazelais",
+        "pub_info": "Knowledge Management & E-Learning, 16(4), pp. 638–652, 2024, https://doi.org/10.34105/j.kmel.2024.16.029"
     },
     {
         "title": "Forecasting Bitcoin Returns via Machine Learning Algorithms with Technical and Economic Indicators",
