@@ -37,7 +37,7 @@
     },
     {
         "name": "CSCI 420- Software Security",
-        "times": 11
+        "times": 12
     },
     {
         "name": "CSCI 465- Net/App Security",
@@ -45,7 +45,7 @@
     },
     {
         "name": "CSCI 425- Python Machine Learning",
-        "times": 5
+        "times": 6
     },
     {
         "name": "CSCI 260- Intro To Database",
@@ -53,6 +53,6 @@
     },
     {
         "name": "CSCI 375- OOP & Design Patterns",
-        "times": 5
+        "times": 6
     }
 ]
