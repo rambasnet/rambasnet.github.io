@@ -26,6 +26,7 @@ class Courses extends React.Component {
                 </ul>
                 <br />
                 <h5><a href="https://github.com/rambasnet" target="_blank" rel="noreferrer">GitHub Repositories</a></h5>
+                <h5><a href="https://www.youtube.com/@Prof-Basnet/" target="_blank" rel="noreferrer">YouTube Channel</a></h5>
                 <h5><a href="https://www.ratemyprofessors.com/professor/1924281" target="_blank" rel="noreferrer">Rate My Professor</a></h5>
                 <h5>Courses Taught at CMU</h5>
                 {
