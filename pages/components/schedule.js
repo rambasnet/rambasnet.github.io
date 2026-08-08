@@ -7,48 +7,42 @@ export default class Schedule extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            semester: "Spring 2026 Schedule",
+            semester: "Fall 2026 Schedule",
             time: ["9:00 am","2:00 pm"], // time range for schedule
             day: ["Mon", "Fri"], // day range for schedule
             
             // days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
             items: [
                 {
-                    name: "CS 1",
-                    loc: "CH 276",
-                    days: ["Mon","Tue","Wed", "Thu"],
-                    time: ["9:00 am", "9:50 am"],
-                },
-                {
-                    name: "Python Machine Learning",
+                    name: "Net/App Security",
                     loc: "CH 210",
                     days: ["Mon", "Wed", "Fri"],
                     time: ["10:00 am", "10:50 am"],
                 },
                 {
-                    name: "OOP & Design Patterns",
-                    loc: "CH 310",
-                    days: ["Tue", "Thu"],
-                    time: ["11:00 am", "12:15 pm"],
-                },
-                {
-                    name: "Office Hour",
-                    loc: "CH 329",
+                    name: "CS 1",
+                    loc: "CH 276",
                     days: ["Mon","Wed", "Fri"],
                     time: ["11:00 am", "11:50 am"],
                 },
                 {
-                    name: "Software Security",
-                    loc: "CH 205",
-                    days: ["Mon", "Wed", "Fri"],
+                    name: "OOP & Design Patterns",
+                    loc: "CH 210",
+                    days: ["Tue", "Thu"],
+                    time: ["12:30 pm", "1:45 pm"],
+                },
+                {
+                    name: "Office Hour",
+                    loc: "CH 329",
+                    days: ["Mon","Wed"],
                     time: ["1:00 pm", "1:50 pm"],
                 },
                 {
                     name: "Office Hour",
                     loc: "CH 329",
                     days: ["Tue","Thu"],
-                    time: ["1:00 pm", "1:50 pm"],
-                },
+                    time: ["10:00 am", "11:15 am"],
+                }
             ]
         };
     }
@@ -58,4 +52,3 @@ export default class Schedule extends React.Component {
         return builder.render();
     }
 }
-

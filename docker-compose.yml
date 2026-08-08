@@ -11,6 +11,7 @@ services:
     working_dir: /home/user/${REPO_NAME}
     volumes:
       - ./:/home/user/${REPO_NAME}
+      - node_modules:/home/user/${REPO_NAME}/node_modules
       - ${HOME}/.gitconfig:/home/user/.gitconfig
       - ${HOME}/.ssh:/home/user/.ssh
       - ${HOME}/.zsh_history:/home/user/.zsh_history
@@ -24,9 +25,12 @@ services:
       [
         "sh",
         "-c",
-        "sudo chown user --recursive /home/user; zsh && tail -f /dev/null",
+        'sudo chown user --recursive /home/user; cd /home/user/${REPO_NAME}; if [ ! -d node_modules ] || [ -z "$(ls -A node_modules 2>/dev/null)" ]; then npm install; fi; zsh && tail -f /dev/null',
       ]
 
 networks:
   default:
     driver: bridge
+
+volumes:
+  node_modules:

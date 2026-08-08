@@ -9,7 +9,7 @@
     },
     {
         "name": "CSCI 111- CS 1",
-        "times": 11
+        "times": 12
     },
     {
         "name": "CSCI 112- CS 2",
@@ -41,7 +41,7 @@
     },
     {
         "name": "CSCI 465- Net/App Security",
-        "times": 11
+        "times": 12
     },
     {
         "name": "CSCI 425- Python Machine Learning",
@@ -53,6 +53,6 @@
     },
     {
         "name": "CSCI 375- OOP & Design Patterns",
-        "times": 6
+        "times": 7
     }
 ]

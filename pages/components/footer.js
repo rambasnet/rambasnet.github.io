@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 /*
 Goal is to render the following HTML:
@@ -11,29 +10,25 @@ Goal is to render the following HTML:
 </p>
 */
 
-class Footer extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      nav_text: ['Home', 'Teaching', 'Research', 'Resources', 'Contact'],
-      //nav_urls:['index.html', 'teaching.html', 'research.html', 'resources.html', 'contact.html'],
-      current_nav: 0 //current navigation id
-    };
-    this.year = new Date();
-    this.year = this.year.getFullYear();
-  }
+const NAV_ITEMS = [
+  { label: 'Home', href: '/home' },
+  { label: 'Teaching', href: '/teaching' },
+  { label: 'Research', href: '/research' },
+  { label: 'Resources', href: '/resources' },
+  { label: 'Contact', href: '/contact' }
+];
 
-  render() {
-    return (
-      <p className="text-center">
-        <span>|</span>
-        {
-          this.state.nav_text.map((text, index) =>
-            <span>&nbsp;<a href={text.toLowerCase()}>{text}</a>&nbsp;|</span>
-          )}
-        <span> &nbsp;&nbsp; &copy; {this.year}</span>
-      </p>
-    );
-  }
-}
+const Footer = () => {
+  const year = new Date().getFullYear();
+
+  return (
+    <p className="text-center">
+      <span>|</span>
+      {NAV_ITEMS.map((item) => (
+        <span key={item.href}>&nbsp;<a href={item.href}>{item.label}</a>&nbsp;|</span>
+      ))}
+      <span> &nbsp;&nbsp; &copy; {year}</span>
+    </p>
+  );
+};
 export default Footer;
