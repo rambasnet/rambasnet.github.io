@@ -27,7 +27,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/10~xgxk_.ezck.js"
   ],
   "/components/schedule": [
-    "static/chunks/00gy-em2nx9yk.js"
+    "static/chunks/01i2nvftvc-g_.js"
   ],
   "/components/schedule_old": [
     "static/chunks/03lhvbicazx51.js"
@@ -51,7 +51,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/0_4kjjg-dy~up.js"
   ],
   "/teaching": [
-    "static/chunks/0zz_47667vt_i.js"
+    "static/chunks/0.tqv9xvliz70.js"
   ],
   "__rewrites": {
     "afterFiles": [],
